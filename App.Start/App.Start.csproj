@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Aes\App.Aes.csproj" />
+    <ProjectReference Include="..\App.Dh\App.Dh.csproj" />
+    <ProjectReference Include="..\App.Pgp\App.Pgp.csproj" />
+    <ProjectReference Include="..\App.Rc4\App.Rc4.csproj" />
+  </ItemGroup>
+
+</Project>
